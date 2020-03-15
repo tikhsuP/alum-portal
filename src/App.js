@@ -7,7 +7,7 @@ class App extends Component {
   render() {
   return (
     <Form className="login-form">
-    <h1><span className="font-weight-bold">Counselo</span>.in</h1> 
+    <h1><span className="font-weight-bold">AlumPor</span>.in</h1> 
     <h3 className="text-center">Login or Signup</h3>
     <FormGroup>
       <Label>
@@ -25,6 +25,7 @@ class App extends Component {
       Log in
     </Button>
     </Form>
+   
   );
  }
 }
