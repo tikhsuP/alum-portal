@@ -2,10 +2,13 @@ import React from 'react';
 import Portfolio from './Portfolio';
 import Nav from './Nav';
 import Mast from './Mast';
+// import Jumbotron from './Jumbotron';
+
 //import S1 from './S1';
-import S2 from './S2';
-import S3 from './S3';
+import HowItWorks from './HowItWorks';
+import Team from './Team';
 import S4 from './S4';
+import About from './About';
 // import S5 from './S5';
 import Foot from './Foot';
 import relationships from './Images/services/relationships.jpg';
@@ -62,10 +65,12 @@ function App() {
   <>
   <Nav />
   <Mast />
+  {/* <Jumbotron /> */}
+  <About />
   {/* <S1 /> */}
   <Portfolio portfolioLinks={portfolioLinks}></Portfolio>
-  <S2 />
-  <S3 />
+  <HowItWorks />
+  <Team />
   <S4 />
   {/* <S5 /> */}
   <Foot />

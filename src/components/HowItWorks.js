@@ -8,7 +8,7 @@ export default class S2 extends Component {
     render() {
         return (
             <>
-                <section className="page-section" id="about">
+                <section className="page-section" id = "HowItWorks">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
