@@ -8,7 +8,7 @@ export default class Foot extends Component {
     <div className="container">
       <div className="row align-items-center">
         <div className="col-md-4">
-          <span className="copyright">Copyright &copy; Your Website 2019</span>
+          <span className="copyright">Copyright &copy; Counselo 2020</span>
         </div>
         <div className="col-md-4">
           <ul className="list-inline social-buttons">
@@ -29,7 +29,7 @@ export default class Foot extends Component {
             </li>
           </ul>
         </div>
-        <div className="col-md-4">
+        {/* <div className="col-md-4">
           <ul className="list-inline quicklinks">
             <li className="list-inline-item">
               <a href="#something">Privacy Policy</a>
@@ -38,7 +38,7 @@ export default class Foot extends Component {
               <a href="#something">Terms of Use</a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   </footer>
