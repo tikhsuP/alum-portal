@@ -12,7 +12,7 @@ export default class S2 extends Component {
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">About</h2>
+          <h2 className="section-heading text-uppercase">How it Works</h2>
           <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
@@ -25,7 +25,7 @@ export default class S2 extends Component {
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>2009-2011</h4>
+                  {/* <h4>2009-2011</h4> */}
                   <h4 className="subheading">Our Humble Beginnings</h4>
                 </div>
                 <div className="timeline-body">
@@ -39,7 +39,7 @@ export default class S2 extends Component {
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>March 2011</h4>
+                  {/* <h4>March 2011</h4> */}
                   <h4 className="subheading">An Agency is Born</h4>
                 </div>
                 <div className="timeline-body">
@@ -53,7 +53,7 @@ export default class S2 extends Component {
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>December 2012</h4>
+                  {/* <h4>December 2012</h4> */}
                   <h4 className="subheading">Transition to Full Service</h4>
                 </div>
                 <div className="timeline-body">
@@ -67,7 +67,7 @@ export default class S2 extends Component {
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>July 2014</h4>
+                  {/* <h4>July 2014</h4> */}
                   <h4 className="subheading">Phase Two Expansion</h4>
                 </div>
                 <div className="timeline-body">

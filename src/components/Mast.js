@@ -7,9 +7,9 @@ export default class Mast extends Component {
                 <header className="masthead">
     <div className="container">
       <div className="intro-text">
-        <div className="intro-lead-in">Welcome To Our Studio!</div>
-        <div className="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a className="btn btn-primary btn-lg text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        <div className="intro-heading text-uppercase col-pink"><h2>“What mental health needs is more sunlight, more candor, and more unashamed conversation.”</h2></div>
+        <div className="intro-lead-in"></div>
+        <a className="btn btn-primary btn-lg text-uppercase js-scroll-trigger btn-green" href="#services">Tell Me More</a>
       </div>
     </div>
   </header>
