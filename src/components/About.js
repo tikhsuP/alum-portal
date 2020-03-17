@@ -13,8 +13,9 @@ export default class About extends Component {
         </div>
         <div className="timeline-panel">
         <div className="timeline-body">
-                  <h2 className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</h2>
-                </div> </div>
+                  <h3 className="text-muted text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</h3>
+        </div>
+        </div>
   </div>
 </div>
 </section>
