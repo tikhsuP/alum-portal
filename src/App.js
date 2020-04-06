@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Login from './components/Login';
+import Register from './components/Register';
 // import Nav from './components/Nav';
 // import Jumbotron from './components/Jumbotron';
 // import Carousel from './components/Carousel';
@@ -13,8 +13,9 @@ class App extends Component {
         {/* <Nav />
         <Jumbotron />
         <Carousel />
-        <Landing />*/}
-        <Login /> 
+        <Landing />
+        <Login />*/}
+        <Register/>
  </>
 
   );
