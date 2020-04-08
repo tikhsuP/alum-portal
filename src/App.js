@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import Register from './components/Register';
+//import Register from './components/Register';
 // import Nav from './components/Nav';
 // import Jumbotron from './components/Jumbotron';
 // import Carousel from './components/Carousel';
 //import Landing from './components/Landing';
+import UserForm from './components/UserForm';
+
 
 import './App.css';
 
@@ -14,8 +16,9 @@ class App extends Component {
         <Jumbotron />
         <Carousel />
         <Landing />
-        <Login />*/}
-        <Register/>
+        <Login />
+        <Portfolio/>*/}
+        <UserForm />
  </>
 
   );
