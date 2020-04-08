@@ -4,7 +4,7 @@ import AppBar from 'material-ui/AppBar';
 
 
 
-export class FormUserDetails extends Component {
+export class Success extends Component {
     continue = e => {
         e.preventDefault();
         //processFinal
@@ -15,51 +15,11 @@ export class FormUserDetails extends Component {
         this.props.prevStep();
     };
     render() {
-        const { values: {firstName, lastName, email, occupation, city, bio } } = this.props;
         return (
             <MuiThemeProvider>
                 <React.Fragment>
-                    <AppBar title="Confirm User Data" />
-                    <List>
-                        <ListItem 
-                        primaryText="First Name"
-                        secondaryText={firstName}
-                        />
-                        <ListItem 
-                        primaryText="Last Name"
-                        secondaryText={lastName}
-                        />
-                        <ListItem 
-                        primaryText="Email"
-                        secondaryText={email}
-                        />
-                        <ListItem 
-                        primaryText="Occupation"
-                        secondaryText={occupation}
-                        />
-                        <ListItem 
-                        primaryText="City"
-                        secondaryText={city}
-                        />
-                        <ListItem 
-                        primaryText="Bio"
-                        secondaryText={bio}
-                        />
-                    </List>
-                    <br />
-                    <RaisedButton 
-                    label="Confirm & Continue"
-                    primary={true}
-                    style={styles.Button}
-                    onClick={this.continue}
-                    />
-                    <br/>
-                    <RaisedButton 
-                    label="Back"
-                    primary={false}
-                    style={styles.Button}
-                    onClick={this.back}
-                    />
+                    <AppBar title="Success" />
+                    <h1>Thankyou</h1>
                     
                 </React.Fragment>
             </MuiThemeProvider>
@@ -72,4 +32,4 @@ const styles = {
         margin: 15
     }
 }
-export default FormUserDetails
+export default Success
