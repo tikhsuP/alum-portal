@@ -1,11 +1,41 @@
-.container {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    padding: 4vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #362B2E;
+    color: #FAEFFF;
+}
+.containr, .container-1 {
     display: flex;
 }
-.container div {
-    border: 1px #ccc solid;
+.container-1 div, .her-cont {
     padding: 10px;
 }
 img {
     height: 15vh;
     width: 15vw;
+}
+.he-cont{
+    padding-left:23vw;}
+.her-cont{
+    background-color: #302729;
+    padding: 4vw 4vw 4vw 25vw;
+    color: #A68185;
+
+}
+.container-1 {
+    height: 100vh;
+    background-color: #F9F0FF;
+    color: #DDAE9D;
+}
+.bio{
+    flex:3;
+}
+.pict{
+    flex:4;
 }
