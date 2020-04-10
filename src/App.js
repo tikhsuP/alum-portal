@@ -19,8 +19,8 @@ class App extends Component {
         <Carousel />
         <Landing />
         <Login />
-        <Portfolio/>*/}
-        <UserForm />
+        <Portfolio/>
+        <UserForm />*/}
         {/* <Profile /> */}
  </>
 
