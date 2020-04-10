@@ -21,7 +21,7 @@ class App extends Component {
         <Login />
         <Portfolio/>
         <UserForm />*/}
-        {/* <Profile /> */}
+        <Profile />
  </>
 
   );
