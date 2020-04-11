@@ -4,6 +4,7 @@
 }
 
 .sidebar {
+    align-items: center;
     padding: 4vw;
     height: 100vh;
     position: fixed;
@@ -16,26 +17,47 @@
 .container-1 div, .her-cont {
     padding: 10px;
 }
-img {
+.image {
     height: 15vh;
     width: 15vw;
 }
 .he-cont{
-    padding-left:23vw;}
-.her-cont{
+    padding-left:24vw;
     background-color: #302729;
+}
+.her-cont{
     padding: 4vw 4vw 4vw 25vw;
-    color: #A68185;
-
+    color: #302729;
+}
+.name{
+    color: #F37B83;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 94px;
+    margin: 13vh auto 10vh auto;
 }
 .container-1 {
     height: 100vh;
     background-color: #F9F0FF;
-    color: #DDAE9D;
+    color:#BA8590;
+    align-items: center;
+
 }
 .bio{
     flex:3;
 }
+.bio span {font-size: 2em;
+    color: #492D31;
+
+}
 .pict{
+    height: 100vh;
     flex:4;
+}
+.connect {
+    display: flex;
+    color: #362B2E;
+}
+.connect .txt {
+    flex: 1;
 }

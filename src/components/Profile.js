@@ -9,37 +9,34 @@ export class Profile extends Component {
             <div className="containr">
                     <div className="sidebar">
                         <div className="image">
-                            <img src= {p} alt=""/>
+                            <img className="image" src= {p} alt=""/>
                         </div>
                         <div className="intro">
-                            <p className="txt">Name:</p>
+                            <p className="txt-h">Name:</p>
                             <p className="txt">Lorem Ipsum</p>
-                            <p className="txt">Role:</p>
+                            <p className="txt-h">Role:</p>
                             <p className="txt">Lorem Ipsum</p>
-                            <p className="txt">Email:</p>
+                            <p className="txt-h">Email:</p>
                             <p className="txt">Lorem@Ipsum</p>
-                            <p className="txt">Phone:</p>
+                            <p className="txt-h">Phone:</p>
                             <p className="txt">997784 456</p>
                         </div>
-                        <div className="connect">
-                            <p className="txt">Instagram:</p>
-                            <p className="txt">Lorem Ipsum</p>
-                            <p className="txt">LinkedIn:</p>
-                            <p className="txt">Lorem Ipsum</p>
-                            <p className="txt">Twitter:</p>
-                            <p className="txt">Lorem@Ipsum</p>
-                        </div>
+                        
                     </div>
 
 
                     <div className="he-cont">
                         <div className="container-1">
-                                <div className="bio"><p>Hello. My name is</p>
-                            <h1>Amy Pick</h1><p>A full stack all around designer that may or may not include a guide for specific creative potential methods who framing and evaluating moves.</p>
+                                <div className="bio"><span>Hello. My name is</span>
+                                    <h1 className="name">Amy Pickaboo singh</h1><p>A full stack all around designer that may or may not include a guide for specific creative potential methods who framing and evaluating moves.</p>
+                                <div className="connect">
+                                        <p className="txt">INSTAGRAM</p>
+                                        <p className="txt">LINKEDIN</p>
+                                        <p className="txt">TWITTER</p>
+                                </div>
                                 </div>
                                 <div className="pict">
-                                <p>2Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                </div>
+                                <img className="pict" src= {p} alt=""/>                                </div>
                         </div>
                         <div  className="her-cont">
                             <div className="comments">
