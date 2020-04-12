@@ -14,27 +14,28 @@
 .containr, .container-1 {
     display: flex;
 }
-.container-1 div, .her-cont {
+/* .container-1 div, .her-cont {
     padding: 10px;
-}
+} */
 .image {
     height: 15vh;
     width: 15vw;
 }
 .he-cont{
-    padding-left:24vw;
+    padding-left:23vw;
     background-color: #302729;
 }
 .her-cont{
-    padding: 4vw 4vw 4vw 25vw;
-    color: #302729;
+    width: 77vw;
+    padding: auto;
+    color: #A88590;
 }
 .name{
     color: #F37B83;
     font-size: 100px;
     font-weight: 800;
     line-height: 94px;
-    margin: 13vh auto 10vh auto;
+    margin: 1vh 0 3vh auto;
 }
 .container-1 {
     height: 100vh;
@@ -44,7 +45,9 @@
 
 }
 .bio{
+    margin: 15vh 3vw 5vh 3vw;
     flex:3;
+    color: #AE8E99;
 }
 .bio span {font-size: 2em;
     color: #492D31;
@@ -61,3 +64,92 @@
 .connect .txt {
     flex: 1;
 }
+.comments, .exp, .edu, .skills {
+    padding: 5em;
+} 
+.timeline {
+    position: relative;
+    margin: 5px auto;
+    padding: 40px 0;
+    width: 1000px;
+    box-sizing: border-box;
+}
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 5px;
+    height: 100%;
+    background: #F37B83 ;
+    }
+    .timeline ul{
+        margin: 0;
+        padding: 0;
+    }
+    .timeline ul li {
+        list-style: none;
+        position: relative;
+        width: 50%;
+        padding: 20px 40px;
+        box-sizing: border-box;
+    }
+    .stylee{
+        clear: both;
+    }
+    .timeline ul li:nth-child(odd){
+        float: left;
+        text-align: right;
+        clear: both;
+    }
+    .timeline ul li:nth-child(even){
+        float: right;
+        text-align: left;
+        clear: both;
+    } 
+.content{
+    padding-bottom: 20px;
+}
+.timeline ul li:nth-child(odd):before{
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: -12.5px;
+    width:  25px;
+    height: 25px;
+    background: #F37B83;
+    border-radius: 50%;
+}
+.timeline ul li:nth-child(even):before{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -12.5px;
+    width:  25px;
+    height: 25px;
+    background: #F37B83;
+    border-radius: 50%;
+    /* box-shadow: 0 0 0 5px #F37B83; */
+}
+.timeline ul li h1{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;;
+    color: #F37B83;
+}
+.timeline ul li p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+.timeline ul li .time{
+    margin: 0;
+    padding: 0;
+}
+
+/* .timeline ul li:nth-child(odd) .time{
+    position: absolute;
+    top: 12px;
+    right: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: #F37B83;
+} */
