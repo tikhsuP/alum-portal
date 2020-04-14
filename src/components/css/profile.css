@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+.containr, .container-1 {
+    display: flex;
+}
 .sidebar {
     align-items: center;
     padding: 4vw;
@@ -11,9 +13,7 @@
     background-color: #362B2E;
     color: #FAEFFF;
 }
-.containr, .container-1 {
-    display: flex;
-}
+
 /* .container-1 div, .her-cont {
     padding: 10px;
 } */
@@ -42,7 +42,6 @@
     background-color: #F9F0FF;
     color:#BA8590;
     align-items: center;
-
 }
 .bio{
     margin: 15vh 3vw 5vh 3vw;
@@ -51,7 +50,6 @@
 }
 .bio span {font-size: 2em;
     color: #492D31;
-
 }
 .pict{
     height: 100vh;
@@ -64,7 +62,7 @@
 .connect .txt {
     flex: 1;
 }
-.comments, .exp, .edu, .skills {
+.exp, .edu, .skills, .skill  {
     padding: 5em;
 } 
 .timeline {
@@ -153,11 +151,10 @@
     background: #F37B83;
 }  */
 .skills{
-    position: relative;
-    padding: 10vh 0 10vh 0;
-    box-sizing: border-box;
-    height: 100vh;
-    width: 100vw;
+    /* position: relative;  */
+    padding: 10vh 0 0 0;
+    /* box-sizing: border-box; */
+    /* width: 100%; */
     display: flex;
     /* align-items: center; */
     /* justify-content: center;*/
@@ -190,20 +187,32 @@ svg{
 
 svg circle{
     position: absolute;
-    transform: scale(0.9);
+    
     transform-origin: center;
+    
+}
+.highlight{
+    transform: scale(0.845);
     stroke: #F37B83;
-    stroke-width: 30px;
+    stroke-width: 50px;
     stroke-dasharray: 628px;
     stroke-dashoffset: 628px;
-    animation: p-b 20s ease-in-out forwards;
+    animation: p-b 2s ease-in-out forwards;
+    z-index: 99999;
+}
+.bar-frm { 
+    transform: scale(0.8);
+    stroke:#554247;
+    stroke-width: 10px;
+    z-index: -500;
+
 }
 .pnct{ color: #F37B83;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 25px;
+    font-size: 2em;
 }
 @keyframes p-b {
     0%{
@@ -212,4 +221,66 @@ svg circle{
     100%{
         stroke-dashoffset: calc(628px - (628px*90)/100);
     }
+}
+.skill{
+    width: 100%;
+    margin: 0 auto;
+    color: #F37B83;
+    font-size: 2em;
+}
+.skill li{
+    margin: 5vh 0;
+    list-style: none;
+}
+.s-bar{
+background: #554247;
+display: block;
+height: 6px;
+overflow: hidden;
+}
+.s-bar .thickk{
+    stroke-width: 20px;
+    float: left;
+    background: #F37B83;
+}
+.html{
+    width: 89%;
+    animation: html 2s;
+}
+
+@keyframes html{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 89%;
+    }
+}
+.container-2{
+    display: flex;
+    min-height: 110vh;
+    color: #AE8E99;
+}
+.achmnt{
+    flex: 14;
+    padding: 0 0 3vh 3vw;
+    display: flex;
+}
+.comments {
+    flex: 10;
+    padding: 0 3vw 5vh 0;
+}
+.cert{
+    width: 18vw;
+    margin: 0 0 3vh 1.5vw;
+    height: 50vh;
+    background-color: #362A2E;
+}
+.cert h2{
+    color: #F37B83;
+    margin: 50% 0 10% 0;
+    text-align: center;
+}
+.cert p{
+    margin: 0 5% 5% 5%;
 }
