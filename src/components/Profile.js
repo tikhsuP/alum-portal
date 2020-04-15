@@ -226,7 +226,6 @@ export class Profile extends Component {
                                 </div>
                             </div>
                             <div className="achievemnts">
-                                
                             </div>
                         </div>
                     </div>
