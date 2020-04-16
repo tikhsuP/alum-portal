@@ -227,6 +227,8 @@ export class Profile extends Component {
                             </div>
                             <div className="achievemnts">
                             </div>
+                            <div className="achievemnts">
+                            </div>
                         </div>
                     </div>
                 </div>
