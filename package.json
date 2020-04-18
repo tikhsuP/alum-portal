@@ -8,10 +8,12 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
     "botstrap": "^0.20.1",
+    "express": "^4.17.1",
     "material-ui": "^0.20.2",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "react-social-login-buttons": "^3.0.0",
     "reactstrap": "^8.4.1"
@@ -36,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
