@@ -20,8 +20,8 @@ class App extends Component {
         <Landing />
         <Login />
         <Portfolio/>
-        <UserForm />*/}
-        <Profile />
+        <UserForm />
+        <Profile />*/}
  </>
 
   );
