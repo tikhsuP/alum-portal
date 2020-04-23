@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 
-export default class server extends Component {
+export class server extends Component {
     render() {
         return (
-            <>
+            <div>
                 
-            </>
+            </div>
         )
     }
 }
+
+export default server
