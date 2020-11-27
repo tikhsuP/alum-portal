@@ -18,10 +18,10 @@ class App extends Component {
         <Jumbotron />
         <Carousel />
         <Landing />*/}
-        <Login />
+        <Profile />
         {/* <Portfolio/>
         <UserForm />
-        <Profile /> */}
+        <Profile />*/}
  </>
 
   );
